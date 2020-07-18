@@ -5,12 +5,38 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title ?? site:name }}</title>
-        <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+        <link rel="stylesheet" href="{{ mix src='css/site.css' }}">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap" rel="stylesheet">
         <script src="{{ mix src='/js/site.js' }}"></script>
     </head>
-    <body class="bg-gray-200 font-sans leading-normal text-grey-800">
-        <div class="mx-auto px-2 h-screen flex items-center justify-center">
-            {{ template_content }}
+    <body class="leading-normal">
+        <div class="max-w-6xl mx-auto">
+            <header class="flex justify-between w-full py-8 px-5 md:py-10">
+                <button class="px-2">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 12H21" stroke="#2D3748" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3 6H21" stroke="#2D3748" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3 18H21" stroke="#2D3748" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <a href="/">
+                    <img alt="Butik - a loveable ecommerece solution for Statamic V3" src="/vendor/butik/images/logo.svg">
+                </a>
+                {{ livewire:butik.cart-icon }}
+            </header>
+            <main class="mt-8 md:mt-12 px-6">
+                {{ template_content }}
+            </main>
         </div>
+
+        <footer class="flex justify-center max-w-6xl mx-auto py-10">
+            <div class="flex flex-wrap justify-center text-gray-600">
+                <a class="mx-6 m2" href="#">Imprint</a>
+                <a class="mx-6 m2" href="#">Shipping</a>
+                <a class="mx-6 m2" href="#">Contact</a>
+            </div>
+        </footer>
+
+        {{ livewire:scripts }}
     </body>
 </html>
