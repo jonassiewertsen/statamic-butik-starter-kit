@@ -13,7 +13,7 @@ require('laravel-mix-purgecss');
 
 mix.js('resources/js/site.js', 'public/js')
 
-mix.postCss('resources/css/tailwind.css', 'public/css', [
+mix.postCss('resources/css/tailwind.css', 'public/css/site.css', [
     require('postcss-import'),
     require('tailwindcss'),
     require('postcss-nested'),
