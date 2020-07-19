@@ -1,3 +1,5 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
 }
+
+[x-cloak] { display: none; }
