@@ -33,7 +33,7 @@
                          @click.away="showMobileNav = false"
                          x-cloak
                     >
-                        {{ nav }}
+                        {{ nav include_home="true" }}
                             <a href="{{ url }}" class="block w-full text-center py-2">
                                 {{ title }}
                             </a>
