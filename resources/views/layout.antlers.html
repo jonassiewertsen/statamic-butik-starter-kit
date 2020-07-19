@@ -34,7 +34,7 @@
                          x-cloak
                     >
                         {{ nav include_home="true" }}
-                            <a href="{{ url }}" class="block w-full text-center py-2">
+                            <a href="{{ url }}" class="block w-full text-center py-2 hover:opacity-75 {{ is_current || is_parent ?= 'underline' }}">
                                 {{ title }}
                             </a>
                         {{ /nav }}
