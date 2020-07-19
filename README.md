@@ -1,4 +1,4 @@
-<p align="center"><img src="https://gblobscdn.gitbook.com/assets%2F-MBPqCW_9mZOscDA0UNt%2F-MCbTP51Tnqt7THKzin9%2F-MCbVydXfB-cxDXNWUQ4%2Fbutik-logo.svg?alt=media&token=e62d1245-ac46-4ebe-b31e-3a78da016600" width="450" alt="Statamic Logo" /></p>
+<p><a href="https://butik.dev"><img src="https://gblobscdn.gitbook.com/assets%2F-MBPqCW_9mZOscDA0UNt%2F-MCbTP51Tnqt7THKzin9%2F-MCbVydXfB-cxDXNWUQ4%2Fbutik-logo.svg?alt=media&token=e62d1245-ac46-4ebe-b31e-3a78da016600" width="450" alt="Statamic Logo" /></a></p>
 
 # Starter Kit
 
@@ -27,6 +27,6 @@ You can use the light and simple design as shipped or customize it after your ne
 [cms-repo]: https://github.com/statamic/cms
 
 #
-![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com) 
-<p align="center"><img src="https://gblobscdn.gitbook.com/assets%2F-MBPqCW_9mZOscDA0UNt%2F-MCbTP51Tnqt7THKzin9%2F-MCbVydXfB-cxDXNWUQ4%2Fbutik-logo.svg?alt=media&token=e62d1245-ac46-4ebe-b31e-3a78da016600" width="150" alt="Statamic Logo" /></p>
+![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com)
+<p><a href="https://butik.dev"><img src="https://gblobscdn.gitbook.com/assets%2F-MBPqCW_9mZOscDA0UNt%2F-MCbTP51Tnqt7THKzin9%2F-MCbVydXfB-cxDXNWUQ4%2Fbutik-logo.svg?alt=media&token=e62d1245-ac46-4ebe-b31e-3a78da016600" width="150" alt="Statamic Logo" /></a></p>
 
