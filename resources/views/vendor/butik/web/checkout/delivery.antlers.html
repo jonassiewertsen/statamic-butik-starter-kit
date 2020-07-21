@@ -1,0 +1,12 @@
+{{ partial src='butik::web.checkout.status' delivery='true' }}
+
+<h1 class="block font-bold mb-8 text-5xl">
+    {{ 'butik::web.checkout' | trans | ucfirst }}
+</h1>
+
+<div class="grid grid-cols-1 md:grid-cols-2 col-gap-24">
+    <span class="hidden md:block">{{# Let's hide the shopping bag overview on mobile #}}
+        {{ partial src='butik::web.checkout.bag-overview' }}
+    </span>
+    {{ partial src='butik::web.checkout.delivery-form' }}
+</div>
