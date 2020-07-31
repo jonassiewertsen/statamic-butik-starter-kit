@@ -6,7 +6,7 @@ A kick start for your new online shop!
 
 ## Installation
 
-[Check out our documentation](https://butik.dev)
+[Check out our documentation](https://butik.dev/installation/installation/starter-kit)
 
 ## About butik
 
