@@ -41,20 +41,6 @@ return [
     'order-confirmations' => 'your_mail@butik.com',
 
     /**
-     * USEFUL LINKS
-     *
-     * Your mails will contain a useful links section at the buttom. Only if you want to.
-     * This could be a good spot to give your customer more information about your
-     * products, shipping information, refund informations etc ...
-     *
-     * 'link' => 'name to be shown',
-     */
-    'useful-links' => [
-//        'https://butik.dev'    => 'Butik documentation',
-//        'https://statamic.com' => 'Statamic Website',
-    ],
-
-    /**
      * CURRENCY
      *
      * Define your shops currency
@@ -74,9 +60,13 @@ return [
     /**
      * ROUTING
      *
-     * Define your own custom route names to view the Statamic Butik
-     * on the front-end.
+     * Customize our custom routes as you need them. You can deactive some routes at all, if you want to
+     * use your custom implementation or just rename our routes at all.
      */
+    'shop_route_active'     => true, // default: true. Set to false to deactive this route.
+    'product_route_active'  => true, // default: true. Set to false to deactive this route.
+    'category_route_active' => true, // default: true. Set to false to deactive this route.
+
     'route_shop-prefix'       => 'shop',                       // yourshop.com/shop/
     'route_cart'              => 'cart',                       // yourshop.com/shop/cart
     'route_category'          => 'category/{category}',         // yourshop.com/shop/category/xxxxx
