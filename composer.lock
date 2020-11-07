@@ -195,16 +195,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.0.4",
+            "version": "2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "4053eab90a7cdf0b81dd93073dc6c18c15d487fd"
+                "reference": "d5789bd8e2d852a6b98fe944ca2ff82e921eb43d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/4053eab90a7cdf0b81dd93073dc6c18c15d487fd",
-                "reference": "4053eab90a7cdf0b81dd93073dc6c18c15d487fd",
+                "url": "https://api.github.com/repos/composer/composer/zipball/d5789bd8e2d852a6b98fe944ca2ff82e921eb43d",
+                "reference": "d5789bd8e2d852a6b98fe944ca2ff82e921eb43d",
                 "shasum": ""
             },
             "require": {
@@ -272,7 +272,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.0.4"
+                "source": "https://github.com/composer/composer/tree/2.0.6"
             },
             "funding": [
                 {
@@ -288,7 +288,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-30T21:39:11+00:00"
+            "time": "2020-11-07T10:21:17+00:00"
         },
         {
             "name": "composer/semver",
@@ -1773,16 +1773,16 @@
         },
         {
             "name": "jonassiewertsen/statamic-butik",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonassiewertsen/statamic-butik.git",
-                "reference": "897180c46b7d0a1ce8d20dc4ed01236ababa0fcc"
+                "reference": "1afb1bae0ad44be8992cb2720dac7e7024770853"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonassiewertsen/statamic-butik/zipball/897180c46b7d0a1ce8d20dc4ed01236ababa0fcc",
-                "reference": "897180c46b7d0a1ce8d20dc4ed01236ababa0fcc",
+                "url": "https://api.github.com/repos/jonassiewertsen/statamic-butik/zipball/1afb1bae0ad44be8992cb2720dac7e7024770853",
+                "reference": "1afb1bae0ad44be8992cb2720dac7e7024770853",
                 "shasum": ""
             },
             "require": {
@@ -1850,9 +1850,9 @@
             "support": {
                 "email": "mail@jonassiewertsen.com",
                 "issues": "https://github.com/jonassiewertsen/statamic-butik/issues",
-                "source": "https://github.com/jonassiewertsen/statamic-butik/tree/v3.2.0"
+                "source": "https://github.com/jonassiewertsen/statamic-butik/tree/v3.2.1"
             },
-            "time": "2020-11-01T13:36:45+00:00"
+            "time": "2020-11-05T20:18:44+00:00"
         },
         {
             "name": "jonassiewertsen/statamic-livewire",
@@ -1992,16 +1992,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.12.3",
+            "version": "v8.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "6707480c5f0db7aa07537f9ad93255b64b65b85e"
+                "reference": "37a0abd4f3dbc51e2256296b45f8be72c8fe2196"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/6707480c5f0db7aa07537f9ad93255b64b65b85e",
-                "reference": "6707480c5f0db7aa07537f9ad93255b64b65b85e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/37a0abd4f3dbc51e2256296b45f8be72c8fe2196",
+                "reference": "37a0abd4f3dbc51e2256296b45f8be72c8fe2196",
                 "shasum": ""
             },
             "require": {
@@ -2155,25 +2155,25 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2020-10-29T22:01:29+00:00"
+            "time": "2020-11-03T14:13:19+00:00"
         },
         {
             "name": "laravel/helpers",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/helpers.git",
-                "reference": "b4b8d6e84a6306fc88870f61a244d8c537779f2d"
+                "reference": "cde8ea2427db4f37d67729846b70452499210a21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/helpers/zipball/b4b8d6e84a6306fc88870f61a244d8c537779f2d",
-                "reference": "b4b8d6e84a6306fc88870f61a244d8c537779f2d",
+                "url": "https://api.github.com/repos/laravel/helpers/zipball/cde8ea2427db4f37d67729846b70452499210a21",
+                "reference": "cde8ea2427db4f37d67729846b70452499210a21",
                 "shasum": ""
             },
             "require": {
                 "illuminate/support": "~5.8.0|^6.0|^7.0|^8.0",
-                "php": ">=7.1.3"
+                "php": "^7.1.3|^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.0|^8.0|^9.0"
@@ -2209,9 +2209,9 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravel/helpers/tree/v1.3.0"
+                "source": "https://github.com/laravel/helpers/tree/v1.4.0"
             },
-            "time": "2020-08-25T17:54:37+00:00"
+            "time": "2020-11-03T16:38:41+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -3475,16 +3475,16 @@
         },
         {
             "name": "opis/closure",
-            "version": "3.6.0",
+            "version": "3.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opis/closure.git",
-                "reference": "c547f8262a5fa9ff507bd06cc394067b83a75085"
+                "reference": "943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opis/closure/zipball/c547f8262a5fa9ff507bd06cc394067b83a75085",
-                "reference": "c547f8262a5fa9ff507bd06cc394067b83a75085",
+                "url": "https://api.github.com/repos/opis/closure/zipball/943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5",
+                "reference": "943b5d70cc5ae7483f6aff6ff43d7e34592ca0f5",
                 "shasum": ""
             },
             "require": {
@@ -3534,9 +3534,9 @@
             ],
             "support": {
                 "issues": "https://github.com/opis/closure/issues",
-                "source": "https://github.com/opis/closure/tree/3.6.0"
+                "source": "https://github.com/opis/closure/tree/3.6.1"
             },
-            "time": "2020-10-11T21:42:15+00:00"
+            "time": "2020-11-07T02:01:34+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -4515,16 +4515,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.0.22",
+            "version": "v3.0.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "3bba31771fbe516b43c046c543990a07ca4333a6"
+                "reference": "1f3c64d63d20ec19fa12baa3cd7fcecc0ec4fcea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/3bba31771fbe516b43c046c543990a07ca4333a6",
-                "reference": "3bba31771fbe516b43c046c543990a07ca4333a6",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/1f3c64d63d20ec19fa12baa3cd7fcecc0ec4fcea",
+                "reference": "1f3c64d63d20ec19fa12baa3cd7fcecc0ec4fcea",
                 "shasum": ""
             },
             "require": {
@@ -4541,6 +4541,7 @@
                 "pixelfear/composer-dist-plugin": "^0.1.4",
                 "spatie/blink": "^1.1.2",
                 "statamic/stringy": "^3.1",
+                "symfony/lock": "^5.1",
                 "symfony/var-exporter": "^4.3",
                 "symfony/yaml": "^4.1 || ^5.1",
                 "ueberdosis/html-to-prosemirror": "^1.0",
@@ -4589,7 +4590,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.0.22"
+                "source": "https://github.com/statamic/cms/tree/v3.0.25"
             },
             "funding": [
                 {
@@ -4597,7 +4598,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-29T14:21:22+00:00"
+            "time": "2020-11-06T20:49:14+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -5644,6 +5645,85 @@
             ],
             "support": {
                 "source": "https://github.com/symfony/intl/tree/v5.1.8"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-24T12:01:57+00:00"
+        },
+        {
+            "name": "symfony/lock",
+            "version": "v5.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/lock.git",
+                "reference": "9ff3c3bfc08da89d307464276aa206514a8c97e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/lock/zipball/9ff3c3bfc08da89d307464276aa206514a8c97e5",
+                "reference": "9ff3c3bfc08da89d307464276aa206514a8c97e5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "psr/log": "~1.0",
+                "symfony/polyfill-php80": "^1.15"
+            },
+            "conflict": {
+                "doctrine/dbal": "<2.5"
+            },
+            "require-dev": {
+                "doctrine/dbal": "^2.5|^3.0",
+                "mongodb/mongodb": "~1.1",
+                "predis/predis": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Lock\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jérémy Derussé",
+                    "email": "jeremy@derusse.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Lock Component",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "cas",
+                "flock",
+                "locking",
+                "mutex",
+                "redlock",
+                "semaphore"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/lock/tree/v5.1.8"
             },
             "funding": [
                 {
@@ -8094,6 +8174,7 @@
                 "issues": "https://github.com/fzaninotto/Faker/issues",
                 "source": "https://github.com/fzaninotto/Faker/tree/v1.9.1"
             },
+            "abandoned": true,
             "time": "2019-12-12T13:22:17+00:00"
         },
         {
